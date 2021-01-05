@@ -1,0 +1,104 @@
+{
+    "define":{
+        "COUNTRY_CODE":"KR"        
+        ,"SITE_NAME":"강남성서침례교회 :: GNCHURCH"
+        ,"SITE_DOMAIN":"http:\/\/gnc.localhost"
+        ,"DEFAULT_DB":"gnchurch"
+        ,"DB_KEY":"gnchurch"
+        ,"AUTH_USE":true
+        ,"UPLOAD_FILE":"\/upload\/file"
+    }
+    ,"config":{
+        "url_rewrite":true,
+        "view":{
+            "ver":"01"
+            ,"use_layout":true
+            ,"top_path":"\/layout\/top.php"
+            ,"left_menu_path":"\/layout\/menu.php"
+            ,"footer_path":"\/layout\/footer.php"
+            ,"use_cdn":false
+            ,"img_path":"\/public\/image"
+            ,"favicon_path":"\/public\/image\/img_logo.png"
+            ,"meta_title":"강남성서침례교회"
+            ,"meta_description":"하나님의 사랑과 구원의 소식을 전파하는 강남성서침례교회"
+            ,"meta_keywords":"강남성서침례교회, 침례교회, 강남교회"
+            ,"menu_info":{
+                "top_menu":[
+                    {
+                        "title":"교회 소개"
+                        ,"link":"\/info\/senior_pastor?top_code=info&left_code=info01"
+                        ,"code":"info"
+                    }
+                    ,{
+                        "title":"말씀 선포"
+                        ,"link":"\/sermon\/sunday_worship?top_code=sermon&left_code=sermon01"
+                        ,"code":"sermon"
+                    }
+                    ,{
+                        "title":"교회 안내"
+                        ,"link":"\/guidance\/worship_time?top_code=guidance&left_code=guidance01"
+                        ,"code":"guidance"
+                    }
+                    ,{
+                        "title":"교회 소식"
+                        ,"link":"\/news\/news?top_code=news&left_code=news01"
+                        ,"code":"news"
+                    }
+                    ,{
+                        "title":"커뮤니티"
+                        ,"link":"\/communication\/list?top_code=communication&left_code=qt"
+                        ,"code":"communication"
+                    }
+                ]
+                ,"sub_menu":{
+                    "info":[
+                        {"title":"담임목사 환영","link":"\/info\/senior_pastor?top_code=info&left_code=info01","code":"info01"}
+                        ,{"title":"부목사 환영","link":"\/info\/associate_pastor?top_code=info&left_code=info02","code":"info02"}
+                        ,{"title":"신조","link":"\/info\/creed?top_code=info&left_code=info03","code":"info03"}
+                    ]
+                    ,"sermon":[
+                        {"title":"주일예배","link":"\/sermon\/sunday_worship?top_code=sermon&left_code=sermon01","code":"sermon01"}
+                        ,{"title":"성경이 보인다","link":"\/sermon\/bile?top_code=sermon&left_code=sermon02","code":"sermon02"}
+                        ,{"title":"단번에 읽는 조직 신학","link":"\/sermon\/theology?top_code=sermon&left_code=sermon03","code":"sermon03"}
+                        ,{"title":"칼럼","link":"\/sermon\/column?top_code=sermon&left_code=sermon04","code":"sermon04"}
+                    ]
+                    ,"guidance":[
+                        {"title":"예배 시간","link":"\/guidance\/worship_time?top_code=guidance&left_code=guidance01","code":"guidance01"}
+                        ,{"title":"예배 순서","link":"\/guidance\/worship_order?top_code=guidance&left_code=guidance02","code":"guidance02"}
+                        ,{"title":"후원하는 곳","link":"\/guidance\/support?top_code=guidance&left_code=guidance03","code":"guidance03"}
+                        ,{"title":"오시는 길","link":"\/guidance\/map?top_code=guidance&left_code=guidance04","code":"guidance04"}
+                    ]
+                    ,"news":[
+                        {"title":"소식 알림","link":"\/news\/news?top_code=news&left_code=news01","code":"news01"}
+                        ,{"title":"중보기도","link":"\/news\/intercessory?top_code=news&left_code=news02","code":"news02"}
+                        ,{"title":"금주의 말씀","link":"\/news\/week?top_code=news&left_code=word","code":"word"}
+                    ]
+                    ,"communication":[
+                        {"title":"QT 나눔","link":"\/communication\/list?top_code=communication&left_code=qt","code":"qt"}
+                        ,{"title":"기도","link":"\/communication\/list?top_code=communication&left_code=pray","code":"pray"}
+                        ,{"title":"우리들의 이야기","link":"\/communication\/list?top_code=communication&left_code=histroy","code":"histroy"}
+                        ,{"title":"QA","link":"\/communication\/list?top_code=communication&left_code=qa","code":"qa"}
+                        ,{"title":"앨범","link":"\/communication\/list?top_code=communication&left_code=album","code":"album"}
+                        ,{"title":"한 줄 수다","link":"\/communication\/list?top_code=communication&left_code=chatter","code":"chatter"}
+                        ,{"title":"성경공부","link":"\/communication\/list?top_code=communication&left_code=bible_study","code":"bible_study"}
+                        ,{"title":"연구자료","link":"\/communication\/list?top_code=communication&left_code=research_data","code":"research_data"}
+                        
+                    ]
+                }
+            }
+        }
+        ,"db":{
+            "gnchurch":{
+                "host":""
+                ,"user":""
+                ,"dbname":""
+                ,"dbpasswd":""
+            }
+        }
+        ,"file":{
+            "use_db_status":true
+            ,"use_db":"gnchurch"
+            ,"use_table":"t_files"
+        }
+    }
+}

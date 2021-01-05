@@ -1,0 +1,79 @@
+
+@font-face {
+	font-family: 'Noto Sans Thin';
+	font-style: normal;
+	font-weight: 100;
+	src: local('Noto Sans CJK KR Thin'),
+	url(../font/NotoSansKR-Thin-Hestia.eot),
+	url(../font/NotoSansKR-Thin-Hestia.eot?#iefix) format('embedded-opentype'),
+	url(../font/NotoSansKR-Thin-Hestia.woff) format('woff'),
+	url(../font/otf/NotoSansKR-Thin-Hestia.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans Light';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Noto Sans CJK KR Light'),
+	url(../font/NotoSansKR-Light-Hestia.eot),
+	url(../font/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype'),
+	url(../font/NotoSansKR-Light-Hestia.woff) format('woff'),
+	url(../font/otf/NotoSansKR-Light-Hestia.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans DemiLight';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Noto Sans CJK KR DemiLight'),
+	url(../font/NotoSansKR-DemiLight-Hestia.eot),
+	url(../font/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype'),
+	url(../font/NotoSansKR-DemiLight-Hestia.woff) format('woff'),
+	url(../font/otf/NotoSansKR-DemiLight-Hestia.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans Regular';
+	font-style: normal;
+	font-weight: 400;
+	src:  local('Noto Sans CJK KR Regular'), local('Noto Sans CJK KR'),
+	url(../font/NotoSansKR-Regular-Hestia.eot),
+	url(../font/NotoSansKR-Regular-Hestia.eot?#iefix) format('embedded-opentype'),
+	url(../font/NotoSansKR-Regular-Hestia.woff) format('woff'),
+	url(../font/otf/NotoSansKR-Regular-Hestia.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans Medium';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Noto Sans CJK KR Medium'),
+	url(../font/NotoSansKR-Medium-Hestia.eot),
+	url(../font/NotoSansKR-Medium-Hestia.eot?#iefix) format('embedded-opentype'),
+	url(../font/NotoSansKR-Medium-Hestia.woff) format('woff'),
+	url(../font/otf/NotoSansKR-Medium-Hestia.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans Bold';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Noto Sans CJK KR Bold'),
+	url(../font/NotoSansKR-Bold-Hestia.eot),
+	url(../font/NotoSansKR-Bold-Hestia.eot?#iefix) format('embedded-opentype'),
+	url(../font/NotoSansKR-Bold-Hestia.woff) format('woff'),
+	url(../font/otf/NotoSansKR-Bold-Hestia.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans Black';
+	font-style: normal;
+	font-weight: 900;
+	src: local('Noto Sans CJK KR Black'),
+	url(../font/NotoSansKR-Black-Hestia.eot),
+	url(../font/NotoSansKR-Black-Hestia.eot?#iefix) format('embedded-opentype'),
+	url(../font/NotoSansKR-Black-Hestia.woff) format('woff'),
+	url(../font/otf/NotoSansKR-Black-Hestia.otf) format('opentype');
+}
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, div, span, strong, table, thead, tbody, tr, th, td, form, fieldset, legend, input, textarea, button{font-family:"Noto Sans Regular", "Apple SD Gothic Neo", "애플 SD 산돌고딕 Neo", "Helvetica Neue", "Roboto", sans-serif;}
